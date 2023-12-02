@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: relative;
+  width: 85%;
+  height: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/* Login Style */
+
+header .left_bx1,
+header .right_bx1 {
+  position: relative;
+  width: 65%;
+  height: 100%;
+  background: #0b1320;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header .left_bx1 {
+  background: white;
+}
+
+header .left_bx1 .content {
+  width: 75%;
+  height: auto;
+  padding: 25px 20px;
+  background: white;
+}
+
+header .left_bx1 .content .card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header .left_bx1 .content .card label {
+  font-size: 14px;
+  font-family: "Righteous", cursive;
+}
+
+header .left_bx1 .content .card input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid rgb(154, 154, 154);
+  background: rgb(238, 238, 238);
+  margin-top: 5px;
+}
+
+header .left_bx1 .content .submit {
+  margin-top: 30px;
+  padding: 8px 20px;
+  color: wheat;
+  background: #111727;
+  width: 100%;
+  cursor: pointer;
+}
+
+header .left_bx1 .content .check {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+header .left_bx1 .content .check span {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+header .left_bx1 .content p {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Righteous", cursive;
+}
+
+header .left_bx1 .content p a {
+  text-decoration: none;
+  color: #5adae0;
+  font-weight: bold;
+}
+
+header .right_bx1 h3 {
+  position: absolute;
+  background: #5adae0;
+  color: #000;
+  right: 0;
+  bottom: 20px;
+  padding: 3px 10px;
+  border-radius: 5px 0px 0px 5px;
+  font-size: 13px;
+  font-family: "Righteous", cursive;
+}
